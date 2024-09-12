@@ -32,10 +32,13 @@
 	
 	<h1>햄버거 추가하기</h1>
 	<form action="/addHamburger" method="post">
-		햄버거 종류: <input type="text" name="hamburgerName" />
-		햄버거 가격: <input type="number" name="hamburgerPrice" />
-		햄버거 설명: <input type="text" name="hamburgerDescription" />
-		추가하기 <input type="submit" value="saveHamburger" />
+		햄버거 종류: <input type="text" name="hamburgerName" required="required" />
+		<br />
+		햄버거 가격: <input type="number" name="hamburgerPrice" required="required" />
+		<br />
+		햄버거 설명: <input type="text" name="hamburgerDescription" required="required" />
+		<br />
+		<input type="submit" value="추가하기" />
 	</form>
 </body>
 </html>

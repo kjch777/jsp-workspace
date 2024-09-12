@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>타이틀</title>
 </head>
 <body>
-
+	<a href="/hamburgerlist">햄버거 리스트 보러가기</a>
 </body>
 </html>
